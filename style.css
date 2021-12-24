@@ -1,0 +1,30 @@
+.wrapper{
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(110, 247, 144);
+    padding: 10px 20px;
+}
+button{
+    padding: 5px 20px;
+    border-radius: 3px;;
+    color: white;
+    background-color: rgb(110, 101, 245);
+    font-weight: bold;
+    outline: none;
+}
+input{
+    display: inline-block;
+    height: 25px;
+}
+button[type='reset']{
+    background-color: rgb(110, 101, 245);
+    color: white;
+}
+.wrapper #newDiv{
+    display: flex;
+}
+.wrapper #message{
+    margin-left: 10px;
+    color: blue;
+}
